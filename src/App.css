@@ -3,6 +3,9 @@
 :root{
   --primary-white: #fff;
   --primary-orange: #f9ab00;
+  --primary-dark: rgba(255,255,255,0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 }
 
 /* *********************   NAVBAR  ************************ */
@@ -46,3 +49,63 @@ nav ul li{
 .navbar-toggler-icon{
   color: #fff !important;
 }
+
+/* *********************   HEADER  ************************ */
+.header-wrapper{
+  position: relative;
+  background: url('header2.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-info h1{
+  text-transform: uppercase;
+  color: var(--primary-orange);
+}
+
+/* ******************* TYPED TEXT ******************** */
+.typed-text {
+  color: var(--primary-white);
+  font-size: 2rem;
+}
+
+/* ******************* HEADER'S OFFER BUTTON ******************** */
+.btn-main-offer{
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0rem;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+[33mcommit dc64e94548e0c7f4a1dfa2fb050f45fffe547c40[m[33m ([m[1;36mHEAD -> [m[1;32mupdated-portfolio[m[33m)[m
+Author: Abeinevincent <abeinevincent@gmail.com>
+Date:   Sat Apr 17 15:00:27 2021 -0700
+
+    Deployment Build Ready
+
+[33mcommit aa25fa8d8533e12db31210ed587894091a1076a6[m[33m ([m[1;31morigin/updated-portfolio[m[33m, [m[1;32mcore-pages[m[33m)[m
+Author: Abeinevincent <abeinevincent@gmail.com>
+Date:   Sat Apr 17 13:09:33 2021 -0700
+
+    Portfolio Updated
+
+[33mcommit 920444f58ed2469f4d068afeca72ef0ecf6d6147[m[33m ([m[1;31morigin/core-pages[m[33m, [m[1;32mabout[m[33m)[m
+Author: Abeinevincent <abeinevincent@gmail.com>
+Date:   Sat Apr 17 07:59:31 2021 -0700
+
+    Core Pages Completed
+
+[33mcommit 09b490f911f83bbe7018a7a8dae549e0775c1c46[m[33m ([m[1;31morigin/about[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Abeinevincent <abeinevincent@gmail.com>
+Date:   Sat Apr 17 04:13:19 2021 -0700
+
+    About section complete
+
+[33mcommit 0affced7c18a18618c37e66c46f8613714c4c668[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 4e6dc58 dbb5038
+Author: AbeinemukamaVicent <48617563+Abeinevincent@users.noreply.github.com>
+Date:   Thu Apr 15 05:09:36 2021 -0700
+
+    Merge pull request #2 from Abeinevincent/header
+    
+    Header Completed
+
+[33mcommit dbb503883ab736a279d0b5de1e5a9cebdcd7876c[m[33m ([m[1;31morigin/header[m[33m)[m
+Author: Abeinevincent <abeinevincent@gmai.com>
+Date:   Thu Apr 15 01:15:57 2021 -0700
+
+    Header Completed
+
+[33mcommit 4e6dc5871bc2f890ae69b937e92b67bd3b494b12[m
+Merge: a9013a7 1cf6526
+Author: AbeinemukamaVicent <48617563+Abeinevincent@users.noreply.github.com>
+Date:   Wed Apr 14 05:15:30 2021 -0700
+
+    Merge pull request #1 from Abeinevincent/navbar
+    
+    Navbar Completed
+
+[33mcommit 1cf6526dd765e03f2a28902667644a1f2627a0b0[m[33m ([m[1;31morigin/navbar[m[33m)[m
+Author: Abeinevincent <abeinevincent@gmai.com>
+Date:   Wed Apr 14 05:03:00 2021 -0700
+
+    Navbar Completed
+
+[33mcommit a9013a753def1d013c3de556cdd256d3d05f7425[m
+Author: Abeinevincent <abeinevincent@gmai.com>
+Date:   Tue Apr 13 21:16:44 2021 -0700
+
+    Project Setup

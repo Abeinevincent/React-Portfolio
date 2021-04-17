@@ -5,9 +5,9 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-dark">
             <div className="container">
-            <a className="navbar-brand text-white" href="#links">
+            <a className="navbar-brand text-white" style={{fontSize: '25px', fontWeight: 'bold'}} href="#links">
                 {/* <img className="logo" src={ Logo } alt="Logo" /> */}
                 WEB DEVELOPER
             </a>
@@ -19,25 +19,22 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#links">Home <span className="sr-only">(current)</span></a>
+                        <a className="nav-link" href="#header">Home <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#links">About Me</a>
+                        <a className="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#services">Services</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#skills">Skills</a>
                     </li>
                     {/* <li className="nav-item">
-                        <a className="nav-link" href="#">Services</a>
-                    </li> */}
-                    <li className="nav-item">
-                        <a className="nav-link" href="#links">Skills</a>
-                    {/* <li className="nav-item">
-                        <a className="nav-link" href="#">Experience</a>
-                    </li> */}
-                    </li>
-                    <li className="nav-item">
                         <a className="nav-link" href="#links">Portfolio</a>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
-                        <a className="nav-link" href="#links">Contact</a>
+                        <a className="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>

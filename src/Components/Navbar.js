@@ -5,7 +5,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-primary">
             <div className="container">
             <a className="navbar-brand text-white" style={{fontSize: '25px', fontWeight: 'bold'}} href="#links">
                 {/* <img className="logo" src={ Logo } alt="Logo" /> */}

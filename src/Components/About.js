@@ -1,6 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed';
 import Profile from '../Profile.jpg';
+import VicentResume from '../VicentResume.pdf';
 
 function About() {
     return (
@@ -18,7 +19,7 @@ function About() {
                             I'm Vicent and I'm a 
                             <Typed
                                 className="typed-text"
-                                strings={["Front-end Developer", "Designer", "Photo Editor", "Freelancer"]}
+                                strings={["Front-End Developer", "Designer", "Photo Editor", "Freelancer"]}
                                 typeSpeed={40}
                                 backSpeed={60}
                                 loop
@@ -30,7 +31,7 @@ function About() {
                             In addition, I also do graphics designing, User Interface designing and photo editing, and like 
                             working in teams sharing progress via github, as well as working as a team lead.
                         </p>
-                        <a href="#link" className="d-cv">Download CV</a>
+                        <a href={ VicentResume } className="d-cv">Download CV</a>
                     </div>
                 </div>
             </div>

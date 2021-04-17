@@ -53,22 +53,29 @@ function Skills() {
                     </div>
                     <div className="bars">
                         <div className="info">
-                            <span>React</span>
-                            <span>75%</span>
+                            <span>React.JS</span>
+                            <span>90%</span>
                         </div>
                         <div className="line react"></div>
                     </div>
                     <div className="bars">
                         <div className="info">
-                            <span>Jquery</span>
-                            <span>70%</span>
+                            <span>React Native</span>
+                            <span>75%</span>
                         </div>
-                        <div className="line Jquery"></div>
+                        <div className="line reactnative"></div>
+                    </div>
+                    <div className="bars">
+                        <div className="info">
+                            <span>Node.JS</span>
+                            <span>60%</span>
+                        </div>
+                        <div className="line nodejs"></div>
                     </div>
                     <div className="bars">
                         <div className="info">
                             <span>PHP</span>
-                            <span>70%</span>
+                            <span>60%</span>
                         </div>
                         <div className="line php"></div>
                     </div>

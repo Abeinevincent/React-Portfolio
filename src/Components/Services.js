@@ -17,9 +17,9 @@ function Services() {
                             </div>
                             <p>
                                 Having built very many websites on the web, I have experience in web development 
-                                using HTML, CSS, Jquery, vanilla JavaScript, JavaScript ES6 and PHP. 
+                                using HTML, CSS, Jquery,JavaScript, React.JS, Node.JS and PHP. 
                                 I have gotten alot more experience through  using the same languages building 
-                                many real life projects simulteneously turning ideas into products.
+                                many real life projects by turning ideas into products.
                             </p>
                         </div>
                     </div>

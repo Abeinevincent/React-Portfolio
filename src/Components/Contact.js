@@ -2,6 +2,7 @@ import React from 'react';
 
 function Contact() {
     return (
+        <div style={{backgroundColor: '#eee'}}>
         <section className="contact" id="contact">
             <div className="max-width">
                 <h2 className="title" style={{marginTop: '20px'}}>Contact me</h2>
@@ -71,6 +72,7 @@ function Contact() {
                 </div>
             </div>
         </section>
+        </div>
     )
 }
 

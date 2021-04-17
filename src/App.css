@@ -53,7 +53,7 @@ nav ul li{
 /* *********************   HEADER  ************************ */
 .header-wrapper{
   position: relative;
-  background: url('header2.jpg') no-repeat;
+  background: url('header.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -90,14 +90,23 @@ nav ul li{
 
 /* ******************* HEADER'S OFFER BUTTON ******************** */
 .btn-main-offer{
-  border: 1px solid var(--primary-red);
+  /* border: 1px solid var(--primary-red); */
   text-transform: uppercase;
-  border-radius: 0rem;
+  border-radius: 0.5rem;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  background-color: var(--primary-orange);
   color: var(--primary-white);
   margin: 2rem;
   margin-left: 40%;
   margin-right: 40%;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.btn-main-offer:hover{
+  background-color: transparent;
+  color: var(--primary-orange);
+  border: 1px solid var(--primary-orange);
 }
 
 /* ******************* ABOUT SECTION STYLING ******************** */
@@ -262,13 +271,13 @@ section .title::after{
   font-size: 20px;
   color: crimson;
   padding: 0 5px;
-  background: #fff;
+  background: white;
   transform: translateX(-50%);
 }
 
 .services, .teams{
   color:#fff;
-  background: #111;
+  background: #999;
 }
 .services .title::before,
 .teams .title::before{
@@ -276,12 +285,12 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-  background: #111;
+  background: #999;
   content: "what i provide";
 }
 .services .serv-content .card{
   width: calc(33% - 20px);
-  background: #222;
+  background: #777;
   text-align: center;
   border-radius: 6px;
   padding: 20px 25px;
@@ -412,15 +421,19 @@ section .title::after{
 }
 
 .skills-content .right .react::before{
-  width: 75%;
+  width: 90%;
 }
 
 .skills-content .right .php::before{
-  width: 70%;
+  width: 60%;
 }
 
-.skills-content .right .Jquery::before{
-  width: 70%;
+.skills-content .right .reactnative::before{
+  width: 75%;
+}
+
+.skills-content .right .nodejs::before{
+  width: 60%;
 }
 
 /* ****************** Contact section ******************* */

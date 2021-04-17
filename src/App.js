@@ -4,6 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 import About from './Components/About';
+import Services from './Components/Services';
+import Skills from './Components/Skills';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -24,6 +28,10 @@ function App() {
         <Navbar />
         <Header />
         <About />
+        <Services />
+        <Skills />
+        <Contact />
+        <Footer />
       </>
   );
 }
